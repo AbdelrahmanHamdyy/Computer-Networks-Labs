@@ -1,0 +1,27 @@
+version 3
+run General-0-20231014-01:20:41-28708
+attr configname General
+attr datetime 20231014-01:20:41
+attr datetimef 20231014-012041
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network RNG
+attr processid 28708
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 522
+config network RNG
+config seed-set 522
+
+par RNG.player1 typename "\"lab2.Player1\""
+par RNG.player1 guess "int(uniform(0, 10))"
+par RNG.player2 typename "\"lab2.Player2\""
+par RNG.player2 target 2
+par RNG typename "\"lab2.RNG\""
+
