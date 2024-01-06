@@ -1,0 +1,35 @@
+version 3
+run Config-0-20231023-16:52:52-22900
+attr configname Config
+attr datetime 20231023-16:52:52
+attr datetimef 20231023-165252
+attr experiment Config
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network lab3.Star
+attr processid 22900
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 522
+config Star.N 8
+config network lab3.Star
+config seed-set 522
+
+par Star.hub typename "\"lab3.Hub\""
+par Star.nodes[0] typename "\"lab3.Node\""
+par Star.nodes[1] typename "\"lab3.Node\""
+par Star.nodes[2] typename "\"lab3.Node\""
+par Star.nodes[3] typename "\"lab3.Node\""
+par Star.nodes[4] typename "\"lab3.Node\""
+par Star.nodes[5] typename "\"lab3.Node\""
+par Star.nodes[6] typename "\"lab3.Node\""
+par Star.nodes[7] typename "\"lab3.Node\""
+par Star typename "\"lab3.Star\""
+par Star N 8
+attr config N
+
