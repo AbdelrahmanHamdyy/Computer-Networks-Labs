@@ -1,0 +1,24 @@
+version 3
+run General-0-20231006-21:25:10-26148
+attr configname General
+attr datetime 20231006-21:25:10
+attr datetimef 20231006-212510
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network lab1.Test
+attr processid 26148
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network lab1.Test
+
+par Test.Tic typename "\"lab1.Node\""
+par Test.Toc typename "\"lab1.Node\""
+par Test typename "\"lab1.Test\""
+
